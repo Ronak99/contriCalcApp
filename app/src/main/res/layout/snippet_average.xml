@@ -1,0 +1,105 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardViewLayout"
+            android:gravity="center_horizontal"
+            android:padding="25dp"
+            android:background="@drawable/layout_peopledata_container"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:id="@+id/linLayout1"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="CONTRIBUTED AMOUNT : "
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvContributedAmount"
+                    android:textStyle="bold"
+                    android:text="200"
+
+                    android:textSize="17sp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:id="@+id/linLayout2"
+                android:layout_below="@id/linLayout1"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="AVERAGE CONTRIBUTION : "
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvAverageValue"
+                    android:textStyle="bold"
+                    android:text="200"
+                    android:textSize="17sp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:id="@+id/linLayout3"
+                android:layout_below="@id/linLayout2"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NUMBER OF PEOPLE : "
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvNoOfPeople"
+                    android:textStyle="bold"
+                    android:text="200"
+                    android:textSize="17sp"
+
+                    />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+</merge>

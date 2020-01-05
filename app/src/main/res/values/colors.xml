@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fbc02d</color>
+    <color name="colorPrimaryDark">#bf8c0d</color>
+    <color name="colorAccent">#fbc02d</color>
+    <color name="appBackground">#ffffff</color>
+
+
+    <color name="gradientButtomColorStart">#fbc02d</color>
+    <color name="gradientButtomColorEnd">#e2ac24</color>
+
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="grey">#efefef</color>
+    <color name="dark_grey">#949393</color>
+    <color name="link">#304ffe</color>
+
+
+
+</resources>

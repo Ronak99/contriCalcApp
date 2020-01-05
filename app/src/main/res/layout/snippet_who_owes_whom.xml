@@ -1,0 +1,41 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/owesLinearLayoutContainer"
+            android:background="@drawable/layout_peopledata_container"
+            >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="15dp"
+
+                    >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="These suggestions can be inaccurate by 1 or 2 Rs since all the values are rounded off, if they are further inaccurate."
+                            android:textSize="10sp"
+                            android:id="@+id/inaccText"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/inaccText"
+                            android:text="Report a bug."
+                            android:textColor="@color/link"
+                            android:id="@+id/tvReportBug"
+                            android:textSize="10sp" />
+
+                </RelativeLayout>
+
+        </LinearLayout>
+
+</merge>
